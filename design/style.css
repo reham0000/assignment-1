@@ -38,6 +38,7 @@ body{
     border: 1px solid rgb(13, 19, 33);
     border-radius: 8px;
     opacity: 0.8;
+    font-size: 1.2rem;
 }
 /* navbar section ends */
 /* banner section starts */
@@ -189,15 +190,103 @@ body{
     font-weight: 400;
     margin-bottom: 30px;
 }
-.video-content iframe{
-    width: 1076px;
-    height: 550px;
+.inspire-container{
+    width: 1140px;
+    height: 614px;
     box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.2);
-    padding: 30px;
     border-radius: 16px;
 }
+.inspire-content iframe{
+    width: 1076px;
+    height: 550px;
+    border-radius: 16px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
 /* video section ends */
+
+/* card section starts */
+.card-container{
+    width: 1140px;
+    height: 460px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.head1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    margin-left: 400px;
+    margin-bottom: 30px;
+}
+.para1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 250px;
+}
+.card-content{
+    width: 1092px;
+    height: 460px;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+.card-details1{
+    width: 1100px;
+    height: 400px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    margin-right: 20px;
+}
+.card-details1 img{
+   margin-top: 80px;
+   margin-left: 30px;
+}
+.card-details1 h1, p, u{
+    margin-left: 30px;
+}
+.card-details2{
+    width: 1100px;
+    height: 400px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    margin-right: 20px;
+}
+.card-details2 img{
+    margin-top: 80px;
+    margin-left: 30px;
+}
+.card-details2 h1, p, u{
+    margin-left: 30px;
+}
+.card-details3{
+    width: 1100px;
+    height: 400px;
+    border-radius: 16px;
+background: rgba(255, 223, 0, 0.05);
+}
+.card-details3 img{
+    margin-top: 80px;
+    margin-left: 30px;
+ }
+.card-details3 h1, p, u{
+    margin-left: 30px;
+}
+.u-btn{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* card section ends */
+
 
 
 /* main section ends */
